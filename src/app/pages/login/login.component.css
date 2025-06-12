@@ -1,0 +1,51 @@
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-control {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.form-label {
+  font-size: 0.75rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #1A6BFF;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.btn-primary:hover {
+  background-color: #0056e0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+::ng-deep body::before {
+  content: '';
+  /* Obligatorio para que se muestre */
+  position: fixed;
+  /* Lo saca del flujo y lo fija a la ventana */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  /* El grosor de la barra (ajústalo si quieres) */
+  background-color: #1644A8;
+  /* El color de la barra */
+  z-index: 1000;
+  /* Nos aseguramos de que esté por encima de todo */
+}
